@@ -12,3 +12,5 @@ thumbs.db
 .env
 # node
 node_modules/
+# dev
+dist/
