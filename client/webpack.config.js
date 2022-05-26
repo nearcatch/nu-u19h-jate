@@ -20,6 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
+        favicon: "./favicon.ico",
         title: "J.A.T.E",
       }),
       new InjectManifest({
@@ -40,7 +41,6 @@ module.exports = () => {
             src: path.resolve("./src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
-
           },
         ],
       }),
