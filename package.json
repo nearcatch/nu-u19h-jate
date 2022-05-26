@@ -1,7 +1,15 @@
 {
-  "name": "JATE",
-  "version": "1.0.0",
-  "description": "",
+  "name": "jate",
+  "version": "2022.5.26",
+  "description": "just another text editor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearcatch/nu-u19h-jate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nearcatch/nu-u19h-jate/issues"
+  },
+  "homepage": "https://github.com/nearcatch/nu-u19h-jate#readme",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
@@ -12,8 +20,8 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "nearcatch",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4"
